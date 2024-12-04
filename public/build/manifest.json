@@ -1,0 +1,40 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-BzP_2Oal.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/nprogress.css": {
+    "file": "assets/nprogress-DG7A0Kmt.css",
+    "src": "resources/css/nprogress.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-Cr-GSU1l.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/pages/authentication/Login.vue",
+      "resources/js/pages/Index.vue"
+    ]
+  },
+  "resources/js/pages/Index.vue": {
+    "file": "assets/Index-C2FlfNdx.js",
+    "name": "Index",
+    "src": "resources/js/pages/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/pages/authentication/Login.vue": {
+    "file": "assets/Login-CppzJtzA.js",
+    "name": "Login",
+    "src": "resources/js/pages/authentication/Login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  }
+}
